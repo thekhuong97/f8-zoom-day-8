@@ -1,0 +1,121 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.6rem;
+}
+
+.container {
+  max-width: 331px;
+  background-color: #272a31;
+}
+
+.outline-course {
+  height: 100dvh;
+  overflow-y: auto;
+}
+
+.outline-course .header {
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+}
+
+.outline-course .search {
+  width: 220px;
+  min-height: 40px;
+  display: flex;
+  flex: 1 1 0%;
+  gap: 10px;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 8px;
+  background-color: #323c4a;
+}
+
+.outline-course .search i {
+  color: #fff;
+}
+
+.outline-course .search input {
+  font-size: 1.35rem;
+  border: none;
+  outline: none;
+  color: #ffffffb3;
+  background-color: transparent;
+}
+
+.outline-course button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: none;
+  font-size: 0.97rem;
+  cursor: pointer;
+  color: #0093fc;
+  background-color: transparent;
+}
+
+.outline-course button span {
+  margin-top: 6px;
+}
+
+.outline-item {
+  line-height: 1.6;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.outline-item .chapter {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #181d1e;
+  padding: 8px 16px 12px;
+  font-size: 1.742rem;
+  color: #ffffffe6;
+  background-color: #272a31;
+}
+
+.outline-item .chapter .info {
+  color: #808b9a;
+  font-size: 1.16rem;
+}
+
+.outline-item .chapter .separate {
+  margin: 0 4px;
+}
+
+.sub-outline-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  border-bottom: 1px solid #181d1e;
+  font-size: 1.355rem;
+  line-height: 1.6;
+  color: #ffffffe6;
+}
+
+.sub-outline-item i {
+  color: #808b9a;
+}
+
+.sub-outline-item h3 {
+  font-weight: 400;
+}
+
+.sub-outline-item .duration {
+  color: #808b9a;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
